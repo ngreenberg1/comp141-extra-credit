@@ -48,4 +48,4 @@ TESTENV1="test"
 grep -E '[:alpha:] {3,}' extra_credit.txt > regex.txt
 
 #navigate up a level - back to extra-credit
-cd..
+cd ..
