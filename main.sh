@@ -28,7 +28,7 @@ today > date.txt
 wc -w extra_credit.txt > textcount.txt
 
 #save first five line of a ps command as process.txt
-ps | head -n 5 > process.txt
+ps x | head -n 5 > process.txt
 
 #save first five lines of ifconfig command as netstat.txt
 ifconfig | head -n 5 > netstat.txt

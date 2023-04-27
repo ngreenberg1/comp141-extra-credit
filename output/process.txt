@@ -1,3 +1,5 @@
-  PID TTY           TIME CMD
-49852 ttys000    0:00.08 -zsh
-49960 ttys000    0:00.00 head -n 5
+  PID   TT  STAT      TIME COMMAND
+  353   ??  S      1:53.50 /usr/sbin/distnoted agent
+  354   ??  S      1:52.28 /usr/sbin/cfprefsd agent
+  357   ??  S      1:05.84 /usr/libexec/UserEventAgent (Aqua)
+  362   ??  S      0:17.38 /usr/libexec/lsd
