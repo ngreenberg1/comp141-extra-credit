@@ -12,7 +12,9 @@ cd output
 #read the contents of your created text file into a new text file
 cat extra_credit.txt > read.txt
 
-#run a pwd and ls command, save their outputs to files called pwd.txt and ls.txtpwd > pwd.txt
+#run a pwd and ls command, save their outputs to files called pwd.txt and ls.txt
+
+pwd > pwd.txt
 ls > ls.txt
 
 #make a copy of your text file into a text file called copy.txt
@@ -38,14 +40,14 @@ mount | head -n 5 > mount.txt
 
 #make a file called permissions.txt and give it rwx to all groups
 touch permissions.txt
-chmod 777
+chmod 777 permissions.txt
 
 #create a shell variable called TESTENV1 and set it to "test"
 TESTENV1="test"
 
-#run a grep comman for all words in your text file with at least 3 letters,
+#run a grep command for all words in your text file with at least 3 letters,
 #save to a file called regex.txt
-grep -E '[:alpha:] {3,}' extra_credit.txt > regex.txt
+grep -E '^[[:alpha:]]{3,}' extra_credit.txt > regex.txt
 
 #navigate up a level - back to extra-credit
 cd ..
